@@ -16,12 +16,6 @@ function mindGame(num) {
     }
 }
 
-
-
-
-
-// problem 2
-
 // A function named evenOdd is declared. which takes a string as a parameter. Returns Even if the length of the string is even and Odd if the length is odd.
 
 
@@ -40,9 +34,6 @@ function evenOdd(name) {
 
 }
 
-
-
-// problem 3
 
 // A function is declared that will take a number as input.  Then the difference between the input value and 7 is calculated.  If the difference is less than 7 then return the value of that difference.  And if it is not, it will return double of that input
 
@@ -65,15 +56,7 @@ function isLGSeven(num1) {
 
 }
 
-
-
-
-
-
-// problem 4
-
-
-// Array will contain any numeric number.  It can have negative numbers and positive numbers too.  Then return the number of negative numbers in Array
+//A function is declared that will take a Array as input. Array will contain any numeric number.  It can have negative numbers and positive numbers too.  Then return the number of negative numbers in Array
 
 function findingBadData(arry) {
     let badData = [];
@@ -96,8 +79,8 @@ function findingBadData(arry) {
 
 
 
+//A function is declared that will  3 numbers are taken as input.  Then the first input is multiplied by 21, the second input is multiplied by 32.  And the third input is multiplied with 43.  Then the three inputs are added and placed in a variable.  If the total number is a multiple of 1000 then subtract 2000 from the total number and return the remainder.  And if not, the total number must be returned.
 
-// problem 5
 
 
 function gemsToDiamond(gem1, gem2, gem3) {
@@ -115,9 +98,4 @@ function gemsToDiamond(gem1, gem2, gem3) {
             return totalDiamond;
         }
  
-    
-
 }
-
-const convertToDiamond = gemsToDiamond(1, 1, 1);
-console.log(convertToDiamond)
