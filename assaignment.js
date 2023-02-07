@@ -1,4 +1,4 @@
-// problem 1
+
 
 // Declare a function and give into a number parameter. Multiplied with number parameter by 3. Then take a output.That's output will be divided by  2 and the final result subtraction from 5.Now return final result;
 
